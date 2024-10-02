@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corinthians - Sobre</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4e3b2d;
+            color: #f7d799;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: #f7d799;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px 0;
+        }
+        footer {
+            background-color: #4e3b2d;
+            color: #f7d799;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <img src="https://www.enfoquems.com.br/wp-content/uploads/2020/09/corinthians_p000Pmj_widexl.jpeg" alt="Logo do Corinthians">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="news.html">Notícias</a></li>
+                    <li><a href="games.html">Jogos</a></li>
+                    <li><a href="team.html">Equipe</a></li>
+                    <li><a href="shop.html">Loja</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre o Corinthians</h2>
+            <p>Fundado em 1910, o Sport Club Corinthians Paulista é um dos clubes mais tradicionais do futebol brasileiro. Com uma história rica e uma torcida apaixonada, o Timão conquistou diversos títulos ao longo dos anos.</p>
+            <h3>Conquistas</h3>
+            <ul>
+                <li>Copa Libertadores: 2012, 2015</li>
+                <li>Campeonato Brasileiro: 1990, 1998, 1999, 2005, 2011, 2015</li>
+                <li>Copa do Brasil: 1995, 2002, 2009</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Corinthians. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
